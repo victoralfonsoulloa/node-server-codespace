@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage directory (used by testing tools like nyc or Jest)
+coverage/
+
+# Optional npm cache
+.npm/
+
+# Editor & IDE settings
+.DS_Store
+Thumbs.db
+.vscode/
+
+# BUT we keep debug setup!
+!.vscode/launch.json
+
+# OS-specific
+ehthumbs.db
+Icon?
