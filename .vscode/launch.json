@@ -4,11 +4,11 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Run Raw Node Server",
+      "name": "Dev: Nodemon Watch",
+      "runtimeExecutable": "nodemon",
       "program": "${workspaceFolder}/server.js",
-      "console": "internalConsole",
-      "runtimeExecutable": "node",
-      "port": 9229
+      "restart": true,
+      "console": "internalConsole"
     }
   ]
 }
