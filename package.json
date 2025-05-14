@@ -1,0 +1,11 @@
+{
+  "name": "node-server-codespace",
+  "version": "1.0.0",
+  "description": "A starting point for Node based projects in GitHub codespaces",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "NAME HERE",
+  "license": "Apache 2.0"
+}
