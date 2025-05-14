@@ -4,9 +4,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Dev: Nodemon Watch",
-      "runtimeExecutable": "nodemon",
-      "program": "${workspaceFolder}/server.js",
+      "name": "Dev: Auto-Restart with Nodemon",
+      "runtimeExecutable": "npx",
+      "args": ["nodemon", "server.js"],
       "restart": true,
       "console": "internalConsole"
     }
